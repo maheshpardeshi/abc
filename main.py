@@ -25,4 +25,4 @@ def test_message(message):
     emit('chat message', message)
 
 if __name__ == '__main__':
-    socketio.run(app,debug=True,port=5000)
+    socketio.run(app,debug=True,port=443)
